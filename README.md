@@ -9,6 +9,19 @@
 - `divide(a, b)`：除法（支援錯誤處理）
 
 ## 如何執行測試
-```bash
 pip install -r requirements.txt
 pytest -v --cov=src --cov-report=term-missing   
+
+## 測試結果
+============================= test session starts =============================
+collecting ... collected 5 items
+
+tests.py::test_add PASSED                                                [ 20%]
+tests.py::test_subtract PASSED                                           [ 40%]
+tests.py::test_multiply PASSED                                           [ 60%]
+tests.py::test_divide PASSED                                             [ 80%]
+tests.py::test_divide_by_zero PASSED                                     [100%]
+
+============================== 5 passed in 0.02s ==============================
+
+Process finished with exit code 0
