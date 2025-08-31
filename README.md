@@ -1,9 +1,9 @@
 # Unit Test Demo
-
+```bash
 這是一個簡單的 Python 測試專案，展示如何使用 **pytest** 撰寫單元測試。
 src.py 👉 「主程式邏輯」（例：計算機函式）
 tests.py 👉 「測試程式碼」（例：檢查加減乘除有沒有對）
-
+```
 ## 功能
 - `add(a, b)`：加法
 - `subtract(a, b)`：減法
