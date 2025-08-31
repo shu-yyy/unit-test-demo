@@ -14,7 +14,6 @@ pip install -r requirements.txt
 pytest -v --cov=src --cov-report=term-missing   
 
 ## 測試結果
-```bash
 ============================= test session starts =============================
 collecting ... collected 5 items
 
