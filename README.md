@@ -12,8 +12,9 @@
 ```bash
 pip install -r requirements.txt
 pytest -v --cov=src --cov-report=term-missing   
-
+```
 ## 測試結果
+```bash
 ============================= test session starts =============================
 collecting ... collected 5 items
 
@@ -26,3 +27,4 @@ tests.py::test_divide_by_zero PASSED                                     [100%]
 ============================== 5 passed in 0.02s ==============================
 
 Process finished with exit code 0
+```
