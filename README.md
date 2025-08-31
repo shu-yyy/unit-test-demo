@@ -9,10 +9,12 @@
 - `divide(a, b)`：除法（支援錯誤處理）
 
 ## 如何執行測試
+```bash
 pip install -r requirements.txt
 pytest -v --cov=src --cov-report=term-missing   
 
 ## 測試結果
+```bash
 ============================= test session starts =============================
 collecting ... collected 5 items
 
