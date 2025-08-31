@@ -1,6 +1,6 @@
-# unit-test-demo
+# Unit Test Demo
 
-這是一個簡單的 Python 測試專案，展示如何使用 pytest 撰寫單元測試。
+這是一個簡單的 Python 測試專案，展示如何使用 **pytest** 撰寫單元測試。
 
 ## 功能
 - `add(a, b)`：加法
